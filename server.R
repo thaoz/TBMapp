@@ -3,13 +3,8 @@
 load(file =  "hivneg_long.Rdata")
 load(file =  "hivpos_long.Rdata")
 library(survival)
-library(Hmisc)
-library(knitr)
-library(mgcv)
-library(plyr)
 library(rms)
-library(glmnet)
-library(pec)
+
 
 # data modification
 data.imp.long$HistDay.log2 <- log2(data.imp.long$HistDay)
