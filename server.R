@@ -1,9 +1,8 @@
 # dir <- "C:/Users/thaoltp/Dropbox/TBMpooled/Thao/" #desktop dropbox
 # dir <- "/Users/thaole/Dropbox/TBMpooled/Thao/" #desktop dropbox
 load(file =  "pooled_data.Rdata")
-load(file =  "Analysis/Data/hivneg_imp.Rdata")
-load(file =  "Analysis/Data/hivneg_long.Rdata")
-load(file =  "Analysis/Data/hivpos_long.Rdata")
+load(file =  "hivneg_long.Rdata")
+load(file =  "hivpos_long.Rdata")
 library(survival)
 library(Hmisc)
 library(knitr)
