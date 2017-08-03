@@ -4,6 +4,7 @@ load(file =  "hivneg_long.Rdata")
 load(file =  "hivpos_long.Rdata")
 library(survival)
 library(rms)
+library(pec)
 
 
 # data modification
